@@ -56,8 +56,24 @@ function OrderScreen() {
             <div className="card  p-5">
               <h2 className="mb-2 text-lg">Shipping Address</h2>
               <div>
-                {shippingAddress.fullName}, {shippingAddress.email},{' '}
-                {shippingAddress.address}, {shippingAddress.phone},{' '}
+                <ol>
+                  <li>
+                    <spane className="font-bold">FullName: </spane>
+                    {shippingAddress.fullName}
+                  </li>
+                  <li>
+                    <spane className="font-bold">Email:</spane>{' '}
+                    {shippingAddress.email}
+                  </li>
+                  <li>
+                    <spane className="font-bold">Address:</spane>{' '}
+                    {shippingAddress.address}
+                  </li>
+                  <li>
+                    <spane className="font-bold">Phone:</spane>{' '}
+                    {shippingAddress.phone}
+                  </li>
+                </ol>
               </div>
             </div>
 

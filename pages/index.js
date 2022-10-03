@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import ProductItem from '../components/ProductItem';
 import Product from '../models/Product';
 import db from '../utils/db';
+
 export default function Home({ products }) {
   return (
     <Layout title="Home Page">

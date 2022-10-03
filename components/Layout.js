@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import React, { useContext, useEffect, useState } from 'react';
 import { Store } from '../utils/Store';
+
 export default function Layout({ title, children }) {
   const { state } = useContext(Store);
   const { cart } = state;
