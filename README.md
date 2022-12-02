@@ -1,34 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Antique
+An E-Commerse app where user can buy antique products online.
+## Technology:
+NextJS, MongoDB, Tailwind CSS, DaisyUI and Ajax.
+## Working:
+user will find list of products with a quick view button. By clicking quick view button user can view little description of product. By clicking product user will redirect to product details page. From there user can add that product to cart. from cart user can confirm order also checkout products. User can cancel order anytime. User also can view his orders those he already ordered.
+## Snapshot
+### HomePage
+![nextapp1](https://user-images.githubusercontent.com/38862469/205261412-fb40f4a0-1a05-49c9-976c-2cc3ccf1c63a.png)
+### QuickView
+![nextapp2](https://user-images.githubusercontent.com/38862469/205261589-4f19db80-90a8-4e75-8407-c58b373c4d3f.png)
+### Product Details
+![nextapp3](https://user-images.githubusercontent.com/38862469/205261683-48443be9-6513-46dc-9a90-96c107be82bd.png)
+### Cart
+![nextapp6](https://user-images.githubusercontent.com/38862469/205262231-259dc2f1-1157-417b-9c6b-13c033db00c5.png)
+### Checkout
+#### Giving Address
+![nextapp7](https://user-images.githubusercontent.com/38862469/205262632-516e8869-bbdb-4719-97cc-ae7321ca47e4.png)
+#### Place Order
+![nextapp8](https://user-images.githubusercontent.com/38862469/205262638-d1247b0b-8f8e-43b7-9f33-13e237f24243.png)
 
-## Getting Started
+### Order Lists
+![nextapp4](https://user-images.githubusercontent.com/38862469/205262967-7de571a5-19f4-489c-8ac9-efba4fa49641.png)
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Order Details
+![nextapp5](https://user-images.githubusercontent.com/38862469/205263070-7a778234-ceb3-4ad8-a5d4-aea7223e609f.png)
